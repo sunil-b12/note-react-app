@@ -61,7 +61,7 @@ const Home = () => {
         })
       }
           <div>
-          <Dialog open={open} handler={handleOpen}>
+          <Dialog open={open} handler={handleOpen} className='md:w-full'>
                 <DialogHeader>Updates Note</DialogHeader>
                 <DialogBody>
                     <Update />
